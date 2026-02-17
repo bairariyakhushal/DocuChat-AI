@@ -19,7 +19,7 @@ huggingface_api_key=os.getenv('HUGGINGFACE_API_KEY')
 groq_api_key=os.getenv('GROQ_API_KEY')
 
 ## set up Streamlit 
-st.title("Conversational RAG Chatbot for PDF Knowledge Retrieval")
+st.title("Conversational RAG Chatbot")
 st.write("Upload Pdf's and chat with their content")
 
 llm = ChatGroq(
